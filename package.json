@@ -1,0 +1,26 @@
+{
+  "name": "lazyiterator",
+  "version": "1.0.0",
+  "description": "Lazy implemtation of iterator over javascript lists. Supports functions like map and filter, but applies the mapping and filtering only when accessing the elements. Does not modify the underlying list.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stianoverby/lazyiterator.git"
+  },
+  "keywords": [
+    "data",
+    "structure"
+  ],
+  "author": "Stian Øverby",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stianoverby/lazyiterator/issues"
+  },
+  "homepage": "https://github.com/stianoverby/lazyiterator#readme",
+  "devDependencies": {
+    "jest": "^29.4.3"
+  }
+}
